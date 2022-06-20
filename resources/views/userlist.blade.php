@@ -29,33 +29,33 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex  justify-content-between border border-success  border-bottom-0"
-                                style="text-align: center;font-size:20px;">
-                                <div class="id  w-100 d-flex justify-content-between" style="border-right: 1px solid #6c757d; ">
+                            <div class=" border border-success  border-bottom-0"style="text-align: center;font-size:20px;">
 
-                                    @foreach ($users as $user)
-                                        @if (Auth::user()->id == $user->id)
 
-                                            <div class="name w-100 "
-                                                style="border-right: 1px solid #6c757d; background-color:red;">
-                                                {{ $user->id }}
-                                            </div>
+                                @foreach ($users as $user)
+                                    @if (Auth::user()->id == $user->id)
+                                        <div class="id  w-100 d-flex justify-content-between">
                                             <div class="name w-100  "
                                                 style="border-right: 1px solid #6c757d; background-color:red;">
+                                                {{ $user->id }}
+                                            </div>
+                                            <div class="name  w-100  "
+                                                style="border-right: 1px solid #6c757d; background-color:red;">
                                                 {{ $user->name }}
                                             </div>
-                                            <div class="name  w-100 "
-                                                style="border-right: 1px solid #6c757d; background-color:red;">
+                                            <div class="name  w-100  " style=" background-color:red;">
                                                 {{ $user->email }}
                                             </div>
-
-                                        @else
-
-                                            <div class="name w-100  " style="border-bottom: 1px solid #6c757d;">
+                                        </div>
+                                    @else
+                                        <div class="id  w-100 d-flex justify-content-between">
+                                            <div class="name w-100  "
+                                                style="border-bottom: 1px solid #6c757d;border-right: 1px solid #6c757d;">
 
                                                 {{ $user->id }}
                                             </div>
-                                            <div class="name  w-100 " style="border-bottom: 1px solid #6c757d;">
+                                            <div class="name  w-100 "
+                                                style="border-bottom: 1px solid #6c757d;border-right: 1px solid #6c757d;">
 
                                                 {{ $user->name }}
                                             </div>
@@ -63,21 +63,21 @@
 
                                                 {{ $user->email }}
                                             </div>
+                                        </div>
+                                    @endif
+                                @endforeach
 
-                                        @endif
-                                    @endforeach
+
 
 
 
                             </div>
 
+
+
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-@endsection
+    @endsection
