@@ -11,3 +11,4 @@ class NewController extends Controller
         return view('index');
     }
 }
+ 
