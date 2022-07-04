@@ -1,0 +1,128 @@
+.logo{
+    
+    height: 60px;
+   
+}
+.flex-wrap-wrap{
+
+    flex-wrap: wrap;
+} 
+.container{
+    max-width:1600px;
+    
+}
+.svg-size{
+    width:20px;
+}
+
+main{
+    background-color: #D1D5DB;
+}
+.list{
+   
+    margin: 150px;
+    border-radius: 5px;
+    background-color: #F3F4F6;
+}
+.distance{
+    margin-right: 100px;
+}
+.distance01{
+    margin-right: 147px;
+}
+.distance02{
+    margin-right: 110px;
+}
+.distance03{
+    margin-right: 102px;
+}
+.size{
+    width: 100px;
+
+}
+.progress-rate{
+    margin-left:20%;
+}
+input{
+    background-color: #F3F4F6;
+    border: unset;
+    padding: 0;
+    margin: 0;
+}
+.number{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size:18px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #10b981;
+}
+.number01{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size:18px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+/* 進度條 */
+.g-container {
+    width: 150px;
+    height: 5px;
+    border-radius: 25px;
+    background: rgb(206, 206, 206);
+}
+.g-progress {
+    width: 106.5px;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background:linear-gradient(90deg, #0f0, rgb(255, 196, 0) 70%, transparent 0);;
+}
+.g-progress01 {
+    width: 213px;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background:linear-gradient(90deg, #0f0, rgb(255, 196, 0) 70%, transparent 0);;
+}
+.back{
+    font-weight: bolder;
+}
+
+.g-progress02 {
+    width: 0px;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background:linear-gradient(90deg, #0f0, rgb(255, 196, 0) 70%, transparent 0);;
+}
+
+.min-info-pic .arrow{
+    width: 40px;
+}
+.footer-tito li{
+    list-style-type: none;
+}
+.under-bar{
+    width: 100%;
+    padding: 10px;
+    color: #4b5563;
+    background-color: #f3f4f6;
+}
+.dropdown-toggle::after{
+    content: '';
+    border: unset;
+}
+.dropdown-menu{
+    left: unset;
+    top:130%;
+    right: 30%;
+
+}
+/* shop02 */
+.item-name{
+    font-size: 20px;
+}
+.text-s{
+    font-size: 30px;
+}

@@ -1,0 +1,46 @@
+*{
+  transition: 1s;
+}
+.sigen-in{
+    background-image: url(../img/1920x1080.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+ position: absolute;
+
+}
+.slogan{
+    background-color: rgba(0, 0, 0,0.5);
+}
+.loginpeople .btn-pic{
+    bottom:0px;
+    left: calc( 25% - calc(143.41px / 2));
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    
+}
+input{
+    background-color: #000;
+    height: 60px;
+  
+}
+.loginpeople button{
+    height: 50px;
+
+}
+@media (max-width:991px) {
+    .loginpeople{
+        background-color: rgba(0, 0, 0,0.5)!important;
+    }
+    .loginpeople .btn-pic{
+        bottom:150px;
+        left: calc( 50% - calc(143.41px / 2));
+    }
+    /* .loginpeople .btn-pic{
+        position: unset;
+    } */
+}
+
+
+
