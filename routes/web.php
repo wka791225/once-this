@@ -23,5 +23,10 @@ Route::get('/', function () {
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/user', [HomeController::class, 'user']);
 Route::get('/index',[NewController::class,'index']);
+Route::get('/index',[ShoppingCartController::class,'index']);
+Route::get('/shop',[ShoppingCartController::class,'stop01']);
+Route::get('/shop-2',[ShoppingCartController::class,'stop02']);
+Route::get('/shop-3',[ShoppingCartController::class,'stop03']);
+Route::get('/shop-4',[ShoppingCartController::class,'stop04']);
 Auth::routes();
 
